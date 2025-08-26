@@ -19,7 +19,7 @@ def create_password():
 
 root = Tk()
 root.title("PASSWORD GENERATOR")
-root.geometry("360X300")
+root.geometry("360x300")
 
 btn = Button(root, text="Create Password", command= create_password)
 btn.grid(row = 2, column = 2)
@@ -27,7 +27,7 @@ btn.grid(row = 2, column = 2)
 lbl = Label(root, font=("times", 15, "bold"))
 lbl.grid(row= 4, column= 2)
 
-
 root.mainloop()
+
 
 
